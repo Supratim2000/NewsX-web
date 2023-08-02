@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+:root {
+    --site-blue: #1DA1F2
+}
+
+ul {
+    list-style: none;
+}
+
+#nav-logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#nav-logo-link:link {
+    color: white;
+    text-decoration: none;
+}
+
+#nav-logo-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#nav-logo-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#nav-logo-link:active {
+    color: white;
+    text-decoration: none;
+}
+
+#headrer-nav {
+    
+}
+
+#body-header {
+    position: fixed;
+    background-color: var(--site-blue);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 0px 8px #bbd0e2;
+}
+
+#nav-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#navigation-links-ul {
+    display: flex;
+    gap: 16px;
+}
+
+#body-header {
+    overflow: auto;
+}
+
+#search-input {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#search-input:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+#search-button {
+    background-color: #327ebd;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#search-button:hover {
+    background-color: #143d5a;
+}
+  
